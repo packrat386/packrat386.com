@@ -1,5 +1,4 @@
-packrat386.com
----
+## packrat386.com
 
 This is the static site that lives at [https://packrat386.com]. This
 lived hand edited on the box for many years.
@@ -18,6 +17,9 @@ For release versions, the build is done entirely within docker. These
 builds use `Dockerfile.release` rather than `Dockerfile`. You can test
 this behaviour with `make release` but the actual release of the build
 is done via github actions.
+
+`make fmt` ensures all the markdown/CSS/YAML formatting is
+standardized via prettier. This requires `npx`.
 
 ## Deployment
 

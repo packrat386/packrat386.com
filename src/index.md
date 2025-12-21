@@ -18,6 +18,6 @@ css:
 
 [You Need A License](https://ynal.packrat386.com)
 
-------------------------------------------------------------------------
+---
 
 ![proudly javascript free](assets/nojs.svg)\
