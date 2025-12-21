@@ -1,6 +1,6 @@
 FROM caddy:2-alpine
 
-COPY out/* /srv/
+COPY out/ /srv/
 
 WORKDIR /srv
 
