@@ -1,0 +1,16 @@
+FROM pandoc/core:latest-alpine as pandoc-build
+
+COPY . /data
+
+RUN apk add make
+RUN make
+
+FROM caddy:2-alpine
+
+COPY --from=pandoc-build /data/out/ /srv/
+
+WORKDIR /srv
+
+EXPOSE 8080
+
+CMD ["caddy", "file-server", "--listen", "0.0.0.0:8080"]
