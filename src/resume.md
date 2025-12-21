@@ -8,7 +8,7 @@ css:
 
 # Aidan Coyle (she/her)
 
-I\'m a curious and detail oriented software engineer with a background
+I'm a curious and detail oriented software engineer with a background
 in web application development, platform infrastructure, and devops
 tooling.
 
@@ -26,6 +26,22 @@ GitHub: [packrat386](https://github.com/packrat386)
 S3, SNS, SQS, Lambda), Docker, Terraform, Kubernetes, Git
 
 ## Experience
+
+### Capital One
+
+#### Senior Software Engineer: February 2024 - Present
+
+- Implemented a GraphQL data product as part of an initiative to move
+  applications off of legacy data sources. Conducted end to end
+  acceptance testing, performance testing, and cloud resiliency
+  testing.
+- Designed and implemented a high performance feature flag library for
+  Go backed by Optimizely. Worked with the enterprise team to
+  integrate it into the Capital One SDK for GraphQL services.
+- Designed a proof of concept system for automated acceptance testing
+  scenarios based on compliance requirements. Successfully
+  demonstrated the ability to automatically sync test cases and run
+  them in company standard CI/CD pipelines.
 
 ### Flexport
 
@@ -94,7 +110,7 @@ S3, SNS, SQS, Lambda), Docker, Terraform, Kubernetes, Git
 - Paired on developing and deploying a system for amortization of loan
   offers. Used concurrency patterns to significantly improve
   performance over existing implementations.
-- Contributed to an internal framework that enabled Enova\'s first
+- Contributed to an internal framework that enabled Enova's first
   deployments of Go web applications.
 - Completed training in Ruby, Rails, and Agile Software Development.
 
@@ -120,5 +136,5 @@ Minor: General Philosophy
 
 ## Open Source
 
-I\'ve highlighted some of my open source code that I\'m pleased with
+I've highlighted some of my open source code that I'm pleased with
 [here](https://packrat386.com/stuff_i_made.html).
