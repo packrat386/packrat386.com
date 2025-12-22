@@ -12,6 +12,8 @@ css:
 
 [Stuff I Made](/stuff_i_made.html)
 
+[Blog](/blog/)
+
 [Wiki](https://wiki.packrat386.com)
 
 [Weather](https://boreas.packrat386.com)
