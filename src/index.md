@@ -3,7 +3,7 @@ title: "packrat386"
 author: "packrat386"
 date: "2025-12-21"
 css:
-  - "assets/styles.css"
+  - "/assets/styles.css"
 ...
 
 # Live fast, eat trash
@@ -11,6 +11,8 @@ css:
 [My Resume](/resume.html)
 
 [Stuff I Made](/stuff_i_made.html)
+
+[Blog](/blog/)
 
 [Wiki](https://wiki.packrat386.com)
 

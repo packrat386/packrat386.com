@@ -1,7 +1,7 @@
 SRC_MDS=$(shell find src/ -type f -name '*.md')
 SRC_ASSETS=$(shell find assets/ -type f)
 
-OUT_HTML=$(addsuffix .html,$(addprefix out/,$(notdir $(basename $(SRC_MDS)))))
+OUT_HTML=$(patsubst src/%.md, out/%.html, $(SRC_MDS))
 OUT_ASSETS=$(addprefix out/, $(SRC_ASSETS))
 
 LOCAL_DOCKER_TAG="packrat386.com:local-dev"
@@ -23,10 +23,6 @@ out/%.html: src/%.md
 out/assets/%: assets/%
 	mkdir -p $(@D)
 	cp $< $@
-
-.PHONY: fmt
-fmt:
-	npx prettier . --write
 
 .PHONY: clean
 clean:
