@@ -24,10 +24,6 @@ out/assets/%: assets/%
 	mkdir -p $(@D)
 	cp $< $@
 
-.PHONY: fmt
-fmt:
-	npx prettier . --write
-
 .PHONY: clean
 clean:
 	rm -rf out/ || true
