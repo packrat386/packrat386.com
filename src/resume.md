@@ -3,7 +3,7 @@ title: "Resume"
 author: "packrat386"
 date: "2025-12-21"
 css:
-  - "assets/styles.css"
+  - "/assets/styles.css"
 ...
 
 # Aidan Coyle (she/her)
@@ -138,3 +138,7 @@ Minor: General Philosophy
 
 I've highlighted some of my open source code that I'm pleased with
 [here](https://packrat386.com/stuff_i_made.html).
+
+---
+
+[Home](/)
