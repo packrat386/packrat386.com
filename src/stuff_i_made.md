@@ -5,6 +5,7 @@ date: "2025-12-21"
 css:
   - "/assets/styles.css"
 ...
+
 # Stuff I Made
 
 I occasionally enjoy tinkering with code in my free time. Whether it's
@@ -14,6 +15,8 @@ most of these things "projects" given that I rarely intend to return
 to them or maintain them over time, but they're generally complete
 enough to be used in some way.
 
+- [this site](https://github.com/packrat386/packrat386.com) - A simple
+  static generation setup using make and pandoc.
 - [ynal](https://github.com/packrat386/ynal) - You Need A License.
   This makes it as simple as `curl -o`
 - [kamino](https://github.com/packrat386/kamino) - I got tired of
