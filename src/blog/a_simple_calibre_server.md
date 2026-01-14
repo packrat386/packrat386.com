@@ -98,6 +98,12 @@ uploading a couple hundred books worked just fine. Once I exposed it
 behind the load balancer I could download books onto my phone for
 convenient train reading. Sometimes good is good enough.
 
+---
+
+[Blog](/blog/)
+
+[Home](/)
+
 [Calibre]: https://calibre-ebook.com/
 [calibre-server]: https://manual.calibre-ebook.com/generated/en/calibre-server.html
 [linuxserver.io]: https://www.linuxserver.io/
