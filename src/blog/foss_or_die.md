@@ -94,3 +94,10 @@ control of your tech to someone who's just looking to make a buck off
 you, they will pull the rug out from under you as soon as it's
 profitable to do so, and that day will come sooner or later. I'm not a
 Luddite. I'm just tired of building my house on sand.
+
+---
+
+[Blog](/blog/)
+
+[Home](/)
+
