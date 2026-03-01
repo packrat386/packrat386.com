@@ -20,4 +20,6 @@ An exercise in digital vanity
 
 ---
 
+[Atom Feed](/blog/feed.xml)
+
 [Home](/)
