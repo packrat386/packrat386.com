@@ -22,4 +22,4 @@ css:
 
 ---
 
-![proudly javascript free](assets/nojs.svg)\
+![proudly human](assets/human.svg)\
