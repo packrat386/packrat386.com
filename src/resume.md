@@ -27,9 +27,15 @@ S3, SNS, SQS, Lambda), Docker, Terraform, Kubernetes, Git
 
 ## Experience
 
+### YASSI
+
+#### Software Engineer: March 2026 - Present
+
+- Just started!
+
 ### Capital One
 
-#### Senior Software Engineer: February 2024 - Present
+#### Senior Software Engineer: February 2024 - March 2026
 
 - Implemented a GraphQL data product as part of an initiative to move
   applications off of legacy data sources. Conducted end to end
