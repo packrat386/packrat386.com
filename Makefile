@@ -9,12 +9,12 @@ LOCAL_DOCKER_TAG="packrat386.com:local-dev"
 LOCAL_DOCKER_PORTS="8080:8080"
 LOCAL_DOCKER_FILE="Dockerfile"
 
-all: $(OUT_HTML) $(OUT_ASSETS) $(OUT_FEED)
+all: local-image
 
 serve: local-image
 	docker run -p $(LOCAL_DOCKER_PORTS) $(LOCAL_DOCKER_TAG)
 
-local-image: $(OUT_HTML) $(OUT_ASSETS)
+local-image: $(OUT_HTML) $(OUT_ASSETS) $(OUT_FEED)
 	docker build . -f $(LOCAL_DOCKER_FILE) -t $(LOCAL_DOCKER_TAG)
 
 out/%.html: src/%.md

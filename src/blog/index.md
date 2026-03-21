@@ -12,6 +12,8 @@ An exercise in digital vanity
 
 ## Posts
 
+2026-03-20: [Small Tech](/blog/small_tech.html)
+
 2026-02-09: [FOSS or Die](/blog/foss_or_die.html)
 
 2026-01-14: [A Simple Calibre Server](/blog/a_simple_calibre_server.html)
