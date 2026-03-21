@@ -9,7 +9,7 @@ LOCAL_DOCKER_TAG="packrat386.com:local-dev"
 LOCAL_DOCKER_PORTS="8080:8080"
 LOCAL_DOCKER_FILE="Dockerfile"
 
-all: local-image
+all: $(OUT_HTML) $(OUT_ASSETS) $(OUT_FEED)
 
 serve: local-image
 	docker run -p $(LOCAL_DOCKER_PORTS) $(LOCAL_DOCKER_TAG)
