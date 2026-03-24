@@ -29,7 +29,7 @@ S3, SNS, SQS, Lambda), Docker, Terraform, Kubernetes, Git
 
 ### YASSI
 
-#### Software Engineer: March 2026 - Present
+#### Senior Software Engineer: March 2026 - Present
 
 - Just started!
 
