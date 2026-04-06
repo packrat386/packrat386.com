@@ -12,6 +12,8 @@ An exercise in digital vanity
 
 ## Posts
 
+2026-04-06: [On GitHub](/blog/on_github.html)
+
 2026-03-20: [Small Tech](/blog/small_tech.html)
 
 2026-02-09: [FOSS or Die](/blog/foss_or_die.html)
